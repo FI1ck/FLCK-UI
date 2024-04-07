@@ -4,7 +4,7 @@ import '../styling/link_btn.css'
 
 const link_underline_style = (props) => {
   return (
-    <a href="#" id='link_btn'>
+    <a href={props.link} id='link_btn' target='blank'>
         {props.name}
         <img id='right_arrow' src = {right_arrow} alt="" />
     </a>

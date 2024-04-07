@@ -15,7 +15,7 @@ const Header = () => {
                   <a href="#" id='components'>Components</a>
                 </li>
                 <li>
-                  <a href="#" id='github'></a>
+                  <a href="https://github.com/FI1ck" id='github' target='blank'></a>
                 </li>
                 <li>
                   <button id='mode_switch'></button>

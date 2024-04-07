@@ -15,7 +15,7 @@ const Home = () => {
                 <h2 id='secondary_header'>Website designed and coded by</h2>
             </div>
 
-            <Link_underline_style name = "Source code"/>
+            <Link_underline_style name = "Source code" link = "https://github.com/FI1ck/FLCK-UI"/>
         </div>
     </>
   )
