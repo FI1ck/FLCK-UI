@@ -1,0 +1,20 @@
+.content{
+    padding: 0 36px;
+}
+
+#main_header{
+    margin: 200px 0 0 0;
+    font-size: 48px;
+    color: #f4f4f4;
+}
+
+#secondary_header{
+    margin: 24px 0 0 0;
+    font-size: 36px;
+    color: #878787;
+    font-weight: 500;
+}
+
+#link_btn{
+    margin: 64px 0 0 0;
+}

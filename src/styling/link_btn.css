@@ -1,0 +1,19 @@
+#link_btn{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f4f4f4;
+    gap: 8px;
+    border-bottom: 1px solid #f4f4f4;
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 400px;
+    box-sizing: border-box;
+    padding: 2px 0;
+}
+
+#right_arrow{
+    display: block;
+    width: 18px;
+    height: 18px;
+}
