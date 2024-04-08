@@ -1,0 +1,58 @@
+.scroll{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 78px;
+    color: #878787;
+}
+
+.scroll_line{
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 1.5px;
+    height: 12px;
+    bottom: 24px;
+}
+
+.scroll_line:first-of-type{
+    transform-origin: right bottom;
+    transform: rotate(-45deg);
+}
+
+.scroll_line:last-of-type{
+    transform-origin: left bottom;
+    transform: rotate(45deg);
+}
+
+
+.scroll_line:before{
+    content: "";
+    display: block;
+    background-color: #878787;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation: scroll_arrow_animate 2s cubic-bezier(0.02, 0.88, 0.58, 1) infinite;
+}
+
+@keyframes scroll_arrow_animate{
+    0%{
+        top: 12px;
+        height: 0px;
+    }
+    50%{
+
+        height: 12px;
+        
+    }
+    100%{
+        top: 0;
+        height: 0px;
+    }
+}

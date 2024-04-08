@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styling/Home.css'
 import Link_underline_style from './link_underline_style'
+import Used_recources from './Used_recources'
+import Scroll from './Scroll'
 
 const Home = () => {
   return (
@@ -16,6 +18,10 @@ const Home = () => {
             </div>
 
             <Link_underline_style name = "Source code" link = "https://github.com/FI1ck/FLCK-UI"/>
+
+            <Used_recources />
+
+            <Scroll />
         </div>
     </>
   )

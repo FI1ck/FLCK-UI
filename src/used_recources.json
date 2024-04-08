@@ -1,0 +1,19 @@
+[
+        {
+            "id" : "1",
+            "title": "React js",
+            "icon" : "/src/assets/icons/react.svg"
+        },
+
+        {
+            "id" : "2",
+            "title": "CSS",
+            "icon" : "/src/assets/icons/css.svg"
+        },
+
+        {
+            "id" : "3",
+            "title": "Framer motion",
+            "icon" : "/src/assets/icons/framer motion.svg"
+        }
+]
