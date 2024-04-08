@@ -5,7 +5,7 @@ import right_arrow from '../assets/Icons/right_arrow.svg';
 const Used_recource = ({recource}) => {
   return (
     <div >
-        <a href="#" className='used_recource'>
+        <a href={recource.link} className='used_recource' target='blank'>
             <div className="left_part">
                 <img src= {recource.icon} alt="" className='recource_icon'/>
                 <span className='recource_title'>{recource.title}</span>

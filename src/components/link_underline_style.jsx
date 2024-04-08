@@ -4,10 +4,15 @@ import '../styling/link_btn.css'
 
 const link_underline_style = (props) => {
   return (
-    <a href={props.link} id='link_btn' target='blank'>
+      <a href={props.link} id='link_btn' target='blank'>
         {props.name}
         <img id='right_arrow' src = {right_arrow} alt="" />
+
+        <div className="underline">
+          <div className="underline_animation"></div>
+        </div>
     </a>
+
   )
 }
 

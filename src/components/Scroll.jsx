@@ -3,11 +3,11 @@ import '../styling/Scroll.css'
 
 const Scroll = () => {
   return (
-    <a className='scroll' href="#">
-        <span class="scroll_line"></span>
-        <span class="scroll_line"></span>
+    <div className='scroll'>
         scroll
-    </a>
+        <span class="scroll_line"></span>
+        <span class="scroll_line"></span>
+    </div>
   )
 }
 

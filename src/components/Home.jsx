@@ -14,7 +14,12 @@ const Home = () => {
                     with beautiful UI elements
                 </h1>
 
-                <h2 id='secondary_header'>Website designed and coded by</h2>
+                <div className="secondary_header">
+                  <h2>Website designed and coded by</h2>
+                  <img src="/src/assets/images/FLCK glitch.png" alt="" id='glitch_logo'/>
+                </div>
+
+                
             </div>
 
             <Link_underline_style name = "Source code" link = "https://github.com/FI1ck/FLCK-UI"/>

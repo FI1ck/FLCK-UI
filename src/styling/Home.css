@@ -8,8 +8,15 @@
     color: #f4f4f4;
 }
 
-#secondary_header{
+.secondary_header{
+    display: flex;
+    align-items: end;
+    gap: 12px;
     margin: 24px 0 0 0;
+}
+
+.secondary_header h2{
+    margin: 0;
     font-size: 36px;
     color: #878787;
     font-weight: 500;
@@ -17,4 +24,9 @@
 
 #link_btn{
     margin: 64px 0 0 0;
+}
+
+#glitch_logo{
+    width: 100px;
+    height: 42px;
 }

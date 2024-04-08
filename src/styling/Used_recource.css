@@ -9,6 +9,7 @@
     padding: 8px;
     box-sizing: border-box;
     text-decoration: none;
+    transition: .4s ease;
 }
 .recource_icon{
     width: 36px;
@@ -30,4 +31,10 @@
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+.used_recource:hover{
+    width: 368px;
+    height: 68px;
+    transition: .4s ease;
 }
