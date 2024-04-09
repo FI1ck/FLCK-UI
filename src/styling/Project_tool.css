@@ -1,0 +1,16 @@
+.tool{
+    box-sizing: border-box;
+    width: fit-content;
+    height: 24px;
+    padding: 4px 8px;
+    background-color: #181818;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+
+}
+
+.tool_name{
+    font-size: 14px;
+    color: #878787;
+}

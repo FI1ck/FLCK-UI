@@ -5,8 +5,8 @@ const Scroll = () => {
   return (
     <div className='scroll'>
         scroll
-        <span class="scroll_line"></span>
-        <span class="scroll_line"></span>
+        <span className="scroll_line"></span>
+        <span className="scroll_line"></span>
     </div>
   )
 }
