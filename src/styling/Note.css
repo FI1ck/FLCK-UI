@@ -1,0 +1,106 @@
+.hidden{
+    display: none !important;
+}
+
+.note{
+    padding: 16px;
+    background-color: #1A1A1A;
+    width: fit-content;
+    max-width: 474px;
+    min-width: 230px;
+    border-radius: 15px;
+    display: block;
+    border: none;
+    color: #F4F4F4;
+    text-align: start;
+    overflow-x: hidden;
+}
+
+.top_part{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.header h2{
+    font-size: 24px;
+    font-weight: 650;
+    margin: 0;
+}
+
+.header span{
+    display: block;
+    font-size: 12px;
+    color: #4B4B4B;
+}
+
+.options{
+    display: flex;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.note_btn{
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.edit{
+    background-color: #EDF04D;
+}
+
+.delete{
+    background-color: #EE5454;
+}
+
+.deviding{
+    width: 100%;
+    height: 1px;
+    background-color: #292929;
+    margin: 6px 0;
+}
+
+.subheader{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.subheader h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.subheader span{
+    font-size: 14px;
+    color: #7D7D7D;
+}
+
+.indicators{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 20px;
+}
+
+.indicator{
+    width: 5px;
+    height: 5px;
+    border-radius: 4px;
+    background-color: #292929;
+}
+
+.indicator:first-child{
+    width: 10px;
+    border-radius: 5px;
+    background-color: #F4F4F4;
+}

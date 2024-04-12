@@ -1,5 +1,6 @@
 import React from 'react'
 import Project_tool from '../components/project_tool'
+import Notes_widget from './Notes_widget'
 import '../styling/Project.css'
 
 const Project = (project_data) => {
@@ -19,7 +20,7 @@ const Project = (project_data) => {
 
         </div>
         <div className="project_container">
-
+            <Notes_widget />
         </div>
 
     </section>
