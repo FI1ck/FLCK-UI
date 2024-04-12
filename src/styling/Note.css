@@ -1,19 +1,22 @@
 .hidden{
-    display: none !important;
+    opacity: 0 !important ;
+    width: 0 !important;
+    height: 0 !important;
 }
 
 .note{
+    overflow: hidden;
     padding: 16px;
     background-color: #1A1A1A;
     width: fit-content;
     max-width: 474px;
     min-width: 230px;
+    height: fit-content;
     border-radius: 15px;
     display: block;
     border: none;
     color: #F4F4F4;
     text-align: start;
-    overflow-x: hidden;
     cursor: pointer;
 }
 
