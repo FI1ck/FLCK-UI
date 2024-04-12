@@ -20,16 +20,16 @@ const Notes_widget = () => {
             </div>
 
             <div className='options'>
-              <button className={`edit note_btn ${isOpened? 'hidden' : ''}`}></button>
+              <button className={`edit note_btn ${isOpened? '' : 'hidden'}`}></button>
               <button className='delete note_btn'></button>
             </div>
         </div>
-        <div className={`deviding ${isOpened? 'hidden' : ''}`}></div>
-        <div className={`subheader ${isOpened? 'hidden' : ''}`}>
+        <div className={`deviding ${isOpened? '' : 'hidden'}`}></div>
+        <div className={`subheader ${isOpened? '' : 'hidden'}`}>
           <h3>Header 1</h3>
           <span>Lorem ipsum dolor sit amet consectetur. Aliquam dolor massa est a interdum lacus non sed ipsum. Scelerisque tristique faucibus suspendisse leo</span>
         </div>
-        <div className={`indicators ${isOpened? 'hidden' : ''}`}>
+        <div className={`indicators ${isOpened? '' : 'hidden'}`}>
           <div className="indicator"></div>
           <div className="indicator"></div>
           <div className="indicator"></div>
