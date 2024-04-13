@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styling/Note.css'
 import { useState } from 'react'
-import { easeInOut, motion, spring } from "framer-motion"
+import { animate, easeInOut, easeOut, motion, spring } from "framer-motion"
 import { flushSync } from 'react-dom'
 import { easeIn } from 'framer-motion/dom'
 
@@ -12,16 +12,16 @@ const Notes_widget = () => {
 
 
   return (
-    <motion.button layout onClick={ () => setIsOpened(!isOpened)} className='note' /*whileHover={{ scale: 1.1, transition: .2}}*/ transition={{layout: { duration: .1, type: 'spring', stiffness: 100, damping:15} }}>
+    <motion.button layout onClick={ () => setIsOpened(!isOpened)} className='note' /*whileHover={{ scale: 1.1, transition: .2}}*/ transition={{layout: { duration: .1, type: 'spring', stiffness: 200, damping:20} }}>
         <motion.div className="top_part">
             <motion.div className="header">
               <motion.h2 layout h2>Note Name</motion.h2>
               <motion.span layout span>Added: 08 April 2024</motion.span>
             </motion.div>
 
-            <motion.div className='options'>
-            <motion.button layout className= {`edit note_btn ${isOpened ? '' : 'hidden'}`}></motion.button>
-              <motion.button layout className= "delete note_btn"></motion.button>
+            <motion.div layout transition={{duration: .3, type: "spring", damping: 20, stiffness:175}} className='options'>
+              <motion.button initial = {{opacity : 0}} animate = {{opacity: 1}} exit={{ opacity: 0 }} onClick = {(event) =>  {event.stopPropagation(); alert("This is just a prototype but imagine you edited a note") }} whileHover={{originX: 1, width:60, color: "#000"}} className={`edit note_btn ${isOpened? '' : 'hidden'}`}>Edit</motion.button>
+              <motion.button onClick = {(event) =>  {!isOpened ? event.stopPropagation() : ''; alert("This is just a prototype but imagine you deleted a note") }} whileHover={{originX: 1, width:60, color: "#000"}} className= "delete note_btn">Delete</motion.button>
             </motion.div>
         </motion.div>
       <motion.div animate = {{opacity: opacity, transition: 1}} className={`deviding ${isOpened? '' : 'hidden'}`}></motion.div>

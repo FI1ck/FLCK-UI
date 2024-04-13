@@ -1,7 +1,7 @@
 .hidden{
     opacity: 0 !important ;
-    width: 0 !important;
-    height: 0 !important;
+    position: absolute;
+    z-index: -1;
 }
 
 .note{
@@ -47,7 +47,7 @@
 .options{
     display: flex;
     gap: 8px;
-    margin-top: 4px;
+    margin-top: 6px;
 }
 
 .note_btn{
@@ -55,14 +55,20 @@
     height: 15px;
     border-radius: 8px;
     border: none;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .edit{
     background-color: #EDF04D;
+    color: #EDF04D;
 }
 
 .delete{
     background-color: #EE5454;
+    color: #EE5454;
+
 }
 
 .deviding{
