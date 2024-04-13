@@ -20,7 +20,7 @@ const Notes_widget = () => {
             </motion.div>
 
             <motion.div layout transition={{duration: .3, type: "spring", damping: 20, stiffness:175}} className='options'>
-              <motion.button initial = {{opacity : 0}} animate = {{opacity: 1}} exit={{ opacity: 0 }} onClick = {(event) =>  {event.stopPropagation(); alert("This is just a prototype but imagine you edited a note") }} whileHover={{originX: 1, width:60, color: "#000"}} className={`edit note_btn ${isOpened? '' : 'hidden'}`}>Edit</motion.button>
+              <motion.button onClick = {(event) =>  {event.stopPropagation(); alert("This is just a prototype but imagine you edited a note, may be avalible in future") }} whileHover={{originX: 1, width:60, color: "#000"}} className={`edit note_btn ${isOpened? '' : 'hidden'}`}>Edit</motion.button>
               <motion.button onClick = {(event) =>  {!isOpened ? event.stopPropagation() : ''; alert("This is just a prototype but imagine you deleted a note") }} whileHover={{originX: 1, width:60, color: "#000"}} className= "delete note_btn">Delete</motion.button>
             </motion.div>
         </motion.div>
