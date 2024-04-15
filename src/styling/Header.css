@@ -57,5 +57,6 @@ header{
     border: none;
     width: 43px;
     height: 43px;
+    cursor: pointer;
     background: url(../assets/Icons/mode_switch.svg) center no-repeat;
 }

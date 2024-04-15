@@ -6,7 +6,7 @@ import Scroll from './Scroll'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div id='home'>
         <div className="content">
             <div className="header">
                 <h1 id='main_header'>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion, spring } from 'framer-motion';
 import '../styling/Header.css';
 
 const Header = () => {
@@ -8,17 +9,10 @@ const Header = () => {
             <div className="logo"></div>
             <ul className='navbar_inner'>
                 <li>
-                  <a href="#" id='home'>Home</a>
-                </li>
-                <li id='deviding'></li>
-                <li>
-                  <a href="#" id='components'>Components</a>
+                  <motion.a whileHover={{scale: 1.1}} onTap={{scale: .9}} transition={{type: "spring", stiffness: 200, damping: 20}} href="https://github.com/FI1ck" id='github' target='blank'></motion.a>
                 </li>
                 <li>
-                  <a href="https://github.com/FI1ck" id='github' target='blank'></a>
-                </li>
-                <li>
-                  <button id='mode_switch'></button>
+                  <motion.button whileHover={{scale: 1.1}} onTap={{scale: .9}} transition={{type: "spring", stiffness: 200, damping: 20}} id='mode_switch'></motion.button>
                 </li>
             </ul>
         </nav>

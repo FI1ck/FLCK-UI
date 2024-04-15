@@ -71,7 +71,7 @@ const imgMotion = {
     transition: {
       type: "spring",
       stiffness: 200,
-      damping:30,
+      damping:20,
     }
   }
 }
