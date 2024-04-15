@@ -3,13 +3,15 @@
         "id" : "1",
         "title" : "Notes Widget",
         "description": "Simple but beatiful, resizable note taking widget component, can be scrollable or swipable to your choice",
-        "used_tools" : ["React js", "css", "Framer Motion"] 
+        "used_tools" : ["React js", "css", "Framer Motion"],
+        "component" : "Notes_widget"
     },
 
     {
         "id" : "2",
         "title" : "Reactive card",
-        "description": "Minimalistic card design without distracting text, only the picture of the product and no more, for description just swipe up",
-        "used_tools" : ["React js", "css"] 
+        "description": "Minimalistic card design without distracting text, only the picture of the product and no more, for description just hover it",
+        "used_tools" : ["React js", "css", "Framer Motion"],
+        "component" : "Reactive_card"
     }
 ]

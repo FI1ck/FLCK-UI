@@ -1,9 +1,19 @@
 import React from 'react'
 import Project_tool from '../components/project_tool'
 import Notes_widget from './Notes_widget'
+import Reactive_card from './reactive_card'
 import '../styling/Project.css'
 
+
+
 const Project = (project_data) => {
+    const components = {
+      Notes_widget,
+      Reactive_card
+    };
+
+    const Component = components[project_data.component];
+
   return (
     <section className='project_all'>
         <div className='project_info'>
@@ -20,7 +30,7 @@ const Project = (project_data) => {
 
         </div>
         <div className="project_container">
-            <Notes_widget />
+          {Component && <Component />}
         </div>
 
     </section>
