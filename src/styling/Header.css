@@ -11,7 +11,7 @@ header{
 }
 
 #head_overlay{
-    clip-path: circle(var(--clip-size) at 1858px 30px) ;
+    clip-path: circle(var(--clip-size) at 96vw 3vh) ;
     transition: .5s ease-out;
 }
 
