@@ -7,6 +7,12 @@ header{
     top: 0;
     left: 0;
     backdrop-filter: blur(4px);
+    z-index: 5;
+}
+
+#head_overlay{
+    clip-path: circle(var(--clip-size) at 1858px 30px) ;
+    transition: .5s ease-out;
 }
 
 .navbar{
@@ -46,6 +52,12 @@ header{
     background: url(../assets/images/FLCK.svg) center no-repeat;
 }
 
+.logo_overlay{
+    width: 52px;
+    height: 24px;
+    background: url(../assets/images/FLCK_lm.svg) center no-repeat;
+}
+
 #github{
     display: block;
     width: 43px;
@@ -53,10 +65,23 @@ header{
     background: url(../assets/Icons/github.svg) center no-repeat;
 }
 
+#github_overlay{
+    display: block;
+    width: 43px;
+    height: 43px;
+    background: url(../assets/Icons/github_lm.svg) center no-repeat;
+}
+
 #mode_switch{
     border: none;
     width: 43px;
     height: 43px;
-    cursor: pointer;
     background: url(../assets/Icons/mode_switch.svg) center no-repeat;
+}
+
+#mode_switch_overlay{
+    border: none;
+    width: 43px;
+    height: 43px;
+    background: url(../assets/Icons/mode_switch_lm.svg) center no-repeat;
 }

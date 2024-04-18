@@ -3,6 +3,7 @@
             "id" : "1",
             "title": "React js",
             "icon" : "/src/assets/icons/react.svg",
+            "icon_lm" : "/src/assets/icons/react_lm.svg",
             "link" : "https://react.dev/learn"
         },
 
@@ -10,6 +11,7 @@
             "id" : "2",
             "title": "CSS",
             "icon" : "/src/assets/icons/css.svg",
+            "icon_lm" : "/src/assets/icons/css_lm.svg",
             "link" : "https://www.w3schools.com/css/css_intro.asp"
         },
 
@@ -17,6 +19,7 @@
             "id" : "3",
             "title": "Framer motion",
             "icon" : "/src/assets/icons/framer motion.svg",
+            "icon_lm" : "/src/assets/icons/framer motion_lm.svg",
             "link" : "https://www.framer.com/motion/"
         }
 ]

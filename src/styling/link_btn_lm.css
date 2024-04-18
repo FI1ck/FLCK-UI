@@ -1,0 +1,40 @@
+#link_btn_lm{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #060A09;
+    gap: 8px;
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 400px;
+    box-sizing: border-box;
+    padding: 2px 0;
+    position: relative;
+}
+
+#right_arrow_lm{
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.underline_lm{
+    width: 100%;
+    height: 1px;
+    background-color: #060A09;
+    position: absolute;
+    bottom: 0;
+}
+
+.underline_animation_lm{
+    width: 50%;
+    height: 1px;
+    background-color: #f4f4f4;
+    transform: translateX(-100%);
+}
+
+#link_btn_lm:hover .underline_animation_lm{
+    transform: translateX(200%);
+    transition: 1s ease;
+}
+
