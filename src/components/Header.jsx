@@ -4,12 +4,15 @@ import '../styling/Header.css';
 
 const Header = () => {
 
-  const [isClicked, setIsClicked] = useState(false);
+  const [isClicked, setIsClicked] = useState(true);
+
+  document.documentElement.style.setProperty('--clip-size', isClicked ? '0px' : '200%');
 
   const handleClick = () => {
     setIsClicked(!isClicked);
     document.documentElement.style.setProperty('--clip-size', isClicked ? '0px' : '200%');
   }
+
   return (
     <>
       <header>
